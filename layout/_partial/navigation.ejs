@@ -9,9 +9,11 @@
 	  <a class="navbar-brand" href="<%- config.root %>"><%= config.title %></a>
       <div class="collapse navbar-collapse nav-menu">
 		<ul class="nav navbar-nav">
+          <li><a href="/" title="Home"><i class="fa fa-home"></i>Home</a></li>
 		  <% theme.menu.forEach(function(m){ %>
 		  <li>
-			<a href="<%- config.root %><%- m.url %>" title="<%- m.intro %>">
+			<!-- <a href="<%- config.root %><%- m.url %>" title="<%- m.intro %>"> -->
+            <a href="<%- m.url %>" title="<%- m.intro %>">
 			  <i class="<%- m.icon %>"></i><%- m.title %>
 			</a>
 		  </li>
