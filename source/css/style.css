@@ -445,10 +445,10 @@ pre {
     font-size:16px!important
 }
 pre,.highlight,.gist {
-    background:#000!important;
-    -webkit-border-radius:0!important;
-    -moz-border-radius:0!important;
-    border-radius:0!important
+    background:#17202A!important;
+    -webkit-border-radius:0.3em!important;
+    -moz-border-radius:0.3em!important;
+    border-radius:0.3em!important
 }
 figure {
     border-width:0!important
