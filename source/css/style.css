@@ -47,8 +47,13 @@ body {
     font-weight:bold
 }
 .mypage {
-    padding-bottom:30px;
-    border-bottom:1px solid #fff
+    padding-bottom: 30px;
+    border-bottom: 1px solid #fff;
+}
+.x-post-content {
+    background-color: #1B2631;
+    padding: 10px;
+    border-radius: 0.3em;
 }
 .navbar-brand {
     text-shadow:0 1px 0 rgba(255,255,255,.1),0 0 30px rgba(255,255,255,.125);
@@ -445,7 +450,7 @@ pre {
     font-size:16px!important
 }
 pre,.highlight,.gist {
-    background:#17202A!important;
+    background:#012121!important;
     -webkit-border-radius:0.3em!important;
     -moz-border-radius:0.3em!important;
     border-radius:0.3em!important
@@ -486,7 +491,7 @@ pre,code {
     padding: 1em;
     -webkit-border-radius:0.5em!important;
     -moz-border-radius:0.5em!important;
-    border-radius:0.5em!important;
+    border-radius:0.3em!important;
     box-shadow: 0em 0em 0.5em #17202A;
     -webkit-transition:all .2s linear;
     -moz-transition:all .2s linear;
