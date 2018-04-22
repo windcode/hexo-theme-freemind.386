@@ -48,7 +48,7 @@ body {
 }
 .mypage {
     padding-bottom: 30px;
-    border-bottom: 1px solid #fff;
+    /*border-bottom: 1px solid #fff;*/
 }
 .x-post-content {
     background-color: #1B2631;
