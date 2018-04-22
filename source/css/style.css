@@ -476,3 +476,6 @@ pre,code {
 .fancybox-close:active {
     background:url("../fancybox/fancybox_sprite.png")
 }
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar-brand {line-height: 30px; !important}
+.navbar {min-height:28px !important}
