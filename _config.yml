@@ -54,7 +54,7 @@ widgets:
 rss:
 fancybox: true
 favicon: favicon.ico
-duoshuo_shortname:
+disqus_shortname: xlzd
 
 
 # Analytics (change to yours)
