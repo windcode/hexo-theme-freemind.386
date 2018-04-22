@@ -148,19 +148,19 @@ em.search-keyword {
     width:100%
 }
 a {
-    color:#fefe54
+    color:#FAF7A0
 }
 a:focus {
-    color:#fefe54;
-    background:#a50
+    color:#FEF9E7;
+    background:#aa0
 }
 a:hover {
-    color:#fefe54;
-    background:#a50
+    color:#FEF9E7;
+    background:#aa0
 }
 a:active {
-    color:#fefe54;
-    background:#a50
+    color:#FEF9E7;
+    background:#aa0
 }
 a.label-anchor {
     position:relative;
@@ -199,7 +199,7 @@ a.inline-ref:hover {
 blockquote {
     border-left:5px solid #ccc;
     font-size:.9em;
-    background-color:#008000
+    background-color:#006000
 }
 blockquote p,blockquote ol,blockquote ul,blockquote li,.slogan {
     font-family:DOS,SimHei,Monaco,Menlo,Consolas,'Courier New',monospace
@@ -278,7 +278,8 @@ header h1 {
 h1 {
     font-size:1.5em;
     line-height:1.2em;
-    margin-bottom:.6667em
+    margin-bottom:.6667em;
+    text-transform: none
 }
 h1,h2,h3,h4,h5,h6 {
     text-rendering:optimizelegibility;
