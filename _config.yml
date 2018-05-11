@@ -1,4 +1,4 @@
-slogan: "hello, world."
+slogan: " hello, world."
 
 menu:
   - title: Archives
@@ -18,7 +18,7 @@ menu:
     intro: "About me."
     icon: "fa fa-user"
   - title: 留言
-    url: "https://github.com/xlzd/xlzd.github.io/issues/2"
+    url: "https://github.com/windcode/windcode.github.io/issues"
     intro: "给我留言."
     icon: "fa fa-comments"
   # - title: RSS
@@ -27,20 +27,20 @@ menu:
   #   icon: "fa fa-user"
 
 links:
-  - title: "知乎：zhi.hu/x"
-    url: http://zhi.hu/x
+  - title: "知乎：呓语"
+    url: https://www.zhihu.com/people/yi-yu-67
     intro: "Zhihu"
     icon: "fa fa-heart"
   - title: "My GitHub"
-    url: https://github.com/xlzd
+    url: https://github.com/windcode
     intro: "My GitHub"
     icon: "fa fa-github"
-  - title: "Weibo"
-    url: http://weibo.com/duxu0805
-    intro: "Weibo"
-    icon: "fa fa-weibo"
+  # - title: "Weibo"
+  #   url: http://weibo.com/duxu0805
+  #   intro: "Weibo"
+  #   icon: "fa fa-weibo"
   - title: "以前的 Blog"
-    url: http://old-blog.xlzd.me
+    url: http://www.cnblogs.com/yym2013/
     intro: "以前 Blog"
     icon: "fa fa-book"
 
@@ -54,7 +54,7 @@ widgets:
 rss:
 fancybox: true
 favicon: favicon.ico
-disqus_shortname: xlzd
+disqus_shortname: 呓语
 
 
 # Analytics (change to yours)

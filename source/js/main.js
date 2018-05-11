@@ -1,8 +1,8 @@
 $(document).ready(function() {
     var host = window.location.hostname
-    if(host != "xlzd.me" && host != "localhost") {
-        window.location.replace("https://xlzd.me" + window.location.pathname)
-    }
+    // if(host != "xlzd.me" && host != "localhost") {
+    //     window.location.replace("https://xlzd.me" + window.location.pathname)
+    // }
 
     $(window).scroll(function() {
         var scrollt = document.documentElement.scrollTop + document.body.scrollTop;

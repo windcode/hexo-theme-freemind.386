@@ -180,3 +180,13 @@ This theme is provided under [MIT License](http://opensource.org/licenses/MIT).
 
 * The theme is built based on [Freemind](http://wzpan.github.io/hexo-theme-freemind/) and [BOOTSTRA.386](http://kristopolous.github.io/BOOTSTRA.386/);
 * The beautiful icons are from [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/).
+
+## Reference
+* hexo的安装和主题的替换  
+https://blog.csdn.net/y_z_w123/article/details/78801096
+
+* hexo 自动部署到 github  
+https://hexo.io/zh-cn/docs/deployment.html
+
+* Hexo如何在线可视化写博客？ - lazyboy的回答 - 知乎  
+https://www.zhihu.com/question/27384681/answer/139234890
