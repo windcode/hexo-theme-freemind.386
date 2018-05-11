@@ -190,3 +190,6 @@ https://hexo.io/zh-cn/docs/deployment.html
 
 * Hexo如何在线可视化写博客？ - lazyboy的回答 - 知乎  
 https://www.zhihu.com/question/27384681/answer/139234890
+
+* github怎么绑定自己的域名？ - 知乎  
+https://www.zhihu.com/question/31377141
