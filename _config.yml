@@ -67,3 +67,13 @@ baidu_tongji:
 
 # search
 #swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+
+# Gitalk
+gitalk: 
+  enable: true                        # 用来做启用判断可以不用
+  clientID: a797ed901e6b69f8c7af                            # github app clientid
+  clientSecret: 44bc5132b052591d07831fdbdf73fe9de834209c    # github app clientSecret
+  repo: windcode.github.io            # 仓库名称
+  owner: windcode                     # github 用户名
+  admin: windcode
+  distractionFreeMode: true
