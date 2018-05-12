@@ -175,22 +175,16 @@ toc: true
 1. 创建博客项目目录
 ```
 mkdir blog
-```
-
-2. 初始化 hexo
-```
 cd blog
+```
 
+2. 安装 hexo
+```
 # 安装 hexo
 npm install hexo-cli g
 npm install hexo -g
-
-# 初始化 hexo
-hexo init
-
 # 安装 hexo 的扩展插件
 npm install
-
 # 安装其它插件
 npm install hexo-server --save
 npm install hexo-admin --save
@@ -202,7 +196,12 @@ npm install hexo-deployer-git --save
 npm install hexo-generator-sitemap --save
 ```
 
-3. 测试运行
+3. 初始化目录
+```
+hexo init
+```
+
+4. 测试运行
 ```
 # 生成静态文件
 hexo g
@@ -211,14 +210,17 @@ hexo s
 ```
 
 ## Theme Install
-1. clone 该主题到本地
+1. 移动到 hexo 项目的 themes 目录下
+```
+cd themes/
+```
+
+2. 在 themes 目录中 clone 项目
 ```
 git clone git@github.com:windcode/hexo-theme-freemind.386.git
 ```
 
-2. copy 项目到 hexo 博客项目的 theme 目录下
-
-3. 修改 hexo 博客项目的 _config.yml 文件中默认的 theme
+3. 修改 hexo 博客项目的 \_config.yml 文件中默认的 theme 为 hexo-theme-freemind.386
 ```
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -227,13 +229,11 @@ theme: hexo-theme-freemind.386
 ```
 
 ## How deploy
-1. 修改 hexo 项目根目录下的 _config.yml 文件
+1. 修改 hexo 项目根目录下的 \_config.yml 文件
 
 2. 修改 Deployment 这一项，配置你的 github.io 仓库地址
-```
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
 
+```
 deploy:
 - type: git
   repo: https://github.com/username/username.github.io
@@ -258,15 +258,6 @@ hexo g
 hexo d
 ```
 
-## License ##
-
-This theme is provided under [MIT License](http://opensource.org/licenses/MIT).
-
-
-## Credits ##
-
-* The theme is built based on [Freemind](http://wzpan.github.io/hexo-theme-freemind/) and [BOOTSTRA.386](http://kristopolous.github.io/BOOTSTRA.386/);
-* The beautiful icons are from [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/).
 
 ## Reference
 * hexo的安装和主题的替换  
