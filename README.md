@@ -213,7 +213,7 @@ hexo s
 ## Theme Install
 1. clone 该主题到本地
 ```
-git clone git@github.com:blackshow/hexo-theme-freemind.386.git
+git clone git@github.com:windcode/hexo-theme-freemind.386.git
 ```
 
 2. copy 项目到 hexo 博客项目的 theme 目录下
